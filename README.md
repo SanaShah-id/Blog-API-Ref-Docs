@@ -2,8 +2,6 @@
 
 # Blog-API Reference Documentation
 
-Documented by [Dubem Obinna-Esiowu](https://github.com/Dubemobinna) - [LinkedIn](https://www.linkedin.com/in/dubemobinnaesiowu/) - [Twitter](https://twitter.com/thedocswriter)
-
 
 ## API reference
 
