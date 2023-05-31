@@ -94,7 +94,9 @@ To fetch, delete and update information about a specific user using their â€œidâ
 ### **Endpoints**
 
 `GET`	/users/:id
+
 `DELETE`	/users/:id
+
 `PATCH`	/users/:id
 
 ### **Parameters**
@@ -234,8 +236,11 @@ To get and fetch all post data. The response you receive can be further filtered
 ### **Endpoints**
   
 `GET` /posts
+
 `POST` /posts
+
 `GET` /posts/:id
+
 `PATCH` /posts/:id |
 
 ### **Parameters**
@@ -384,9 +389,13 @@ To get a collection of usernames of those who have liked a post and to fetch num
 ### **Endpoints**
 
 `GET` /posts/:id/like/usernames
+
 `GET` /posts/:id/like/count
+
 `GET` /posts/:id/like/user/:uid
+
       /posts/:id/like/user/:uid
+      
 `DELETE` /posts/:id/like/user/:uid
 
 ### **Parameters**
@@ -498,7 +507,9 @@ curl --location --request DELETE 'https://blog-api-dcha.onrender.com/v1/posts/5/
 ### **Endpoints**
 
 `GET` /posts/:id/comment
+
 `PATCH` /posts/:id/comment/user/:uid
+
 `DELETE` /posts/:id/comment/user/:uid
 
 ### **Parameters**
